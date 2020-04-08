@@ -1997,7 +1997,6 @@ static PyObject *__pyx_pf_16sparseoperations_backpropagation_updates_Cython(CYTH
  *             s+=a[j,rows[i]]*delta[j, cols[i]]
  *         out[i]=s/a.shape[0]             # <<<<<<<<<<<<<<
  *     #return out
- * 
  */
     if (unlikely((__pyx_v_a->dimensions[0]) == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");

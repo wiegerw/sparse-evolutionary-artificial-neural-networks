@@ -13,4 +13,3 @@ def backpropagation_updates_Cython(np.ndarray[np.float64_t,ndim=2] a, np.ndarray
             s+=a[j,rows[i]]*delta[j, cols[i]]
         out[i]=s/a.shape[0]
     #return out
-
